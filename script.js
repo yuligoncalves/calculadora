@@ -3,7 +3,13 @@ let buttons = document.querySelectorAll('button')
 buttons.forEach(function(button){
 
     button.addEventListener('click', function(e) {
-        console.log(e.target.textContent)
+        const value = e.target.innerText;
+        
+        if (+value >= 0 || value === ".") {
+            console.log(value);
+        } else {
+            console.log("Op: " + value);
+        }
     })
 })
 
