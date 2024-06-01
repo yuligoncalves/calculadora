@@ -5,21 +5,20 @@ body {
 
 #cal {
     width: 500px;
-    background-color: dimgrey;
+    background-color: rgb(94, 94, 94);
     border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.034);
     margin: auto;
     color: white;
     
 }
 
-.tela {
-    width: 400px;
+.tela { 
     height: 80px;
     color: white;
-    padding: 10px;
     text-align: right;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 35px;
     line-height: 50px;
     padding: 10px;
 
@@ -32,10 +31,25 @@ body {
     
 }
 
+div > button {
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
 #zero {
     grid-column: 1 / span 2;
 }
 
-.btn {
+.btn-orange {
     background-color: orange;
+    
+}
+
+.btn-gray {
+    background-color: #585858;
+}
+
+.btn-light-gray {
+    background-color: #747474;
 }
